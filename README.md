@@ -8,6 +8,7 @@ TypeScript-এ আমরা interface এবং type ব্যবহার ক�
 
 => Type: একবার ডিফাইন করলে নতুন প্রপার্টি অ্যাড করা যায় না।
 
+```ts
 interface Person {
   name: string;
 }
@@ -21,3 +22,5 @@ type User = {
 };
 
 // type User = { age: number } → Not allowed, redeclaration error
+
+```
