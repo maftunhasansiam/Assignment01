@@ -60,11 +60,12 @@ enum Direction {
 
 const move: Direction = Direction.Up;
 console.log(move); // 0
-
+```
 
 এখানে Up = 0, Down = 1 ইত্যাদি স্বয়ংক্রিয়ভাবে অ্যাসাইন করা হয়েছে।
 
-২. String Enum
+## ২. String Enum
+```ts
 enum Status {
   Active = "ACTIVE",
   Inactive = "INACTIVE",
